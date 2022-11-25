@@ -1,0 +1,276 @@
+body {
+  background-color: black;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.text__box {
+  display: flex;
+  flex-direction: column;
+  width: 500px;
+  background-color: dimgrey;
+  padding: 20px;
+  border-radius: 12px;
+}
+.inpot {
+}
+.inpot_itim1 {
+  width: 70%;
+  height: 30px;
+  background-color: antiquewhite;
+  font-size: 30px;
+  text-align: end;
+  padding: 10px;
+  border-radius: 12px 12px 0px 0px;
+  overflow: hidden;
+}
+.inpot_itim2 {
+  width: 70%;
+  height: 30px;
+  background-color: antiquewhite;
+  font-size: 30px;
+  text-align: end;
+  padding: 10px;
+  border-radius: 0px 0px 12px 12px;
+}
+.temp-result {
+  position: absolute;
+  bottom: 0;
+  left: 10;
+  font-size: 20px;
+  opacity: 0.3;
+}
+.box__cart {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 500px;
+  height: 80px;
+}
+
+.button_itims {
+  margin-top: 0px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  border-radius: 10px;
+  width: 100px;
+  height: 50px;
+  background-color: antiquewhite;
+  font-size: 30px;
+  border: none;
+  padding-left: 40px;
+  transform: 0.5s;
+}
+.button_itims:hover {
+  background-color: rgb(255, 196, 120);
+}
+
+.button_itimsAC {
+  margin-top: 0px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  border-radius: 10px;
+  width: 100px;
+  height: 50px;
+  background-color: red;
+  font-size: 30px;
+  border: none;
+  padding-left: 30px;
+  transform: 0.5s;
+}
+.button_itimsAC:hover {
+  background-color: antiquewhite;
+}
+
+.button_itim {
+  margin-top: 0px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  border-radius: 10px;
+  width: 100px;
+  height: 50px;
+  background-color: blue;
+  font-size: 30px;
+  border: none;
+  padding-left: 40px;
+  transform: 0.5s;
+}
+.button_itim:hover {
+  background-color: antiquewhite;
+}
+.button_itimteng {
+  margin-top: 0px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  border-radius: 10px;
+  width: 100px;
+  height: 50px;
+  background-color: red;
+  font-size: 30px;
+  border: none;
+  padding-left: 40px;
+  transform: 0.5s;
+}
+.button_itimteng:hover {
+  background-color: antiquewhite;
+}
+.button_itimsq {
+  margin-top: 0px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  border-radius: 10px;
+  width: 100px;
+  height: 50px;
+  background-color: antiquewhite;
+  font-size: 30px;
+  border: none;
+  padding-left: 40px;
+  transform: 0.5s;
+}
+.button_itimsq:hover {
+  background-color: rgb(255, 196, 120);
+}
+.button_itimsqq {
+  margin-top: 0px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  border-radius: 10px;
+  width: 100px;
+  height: 50px;
+  background-color: antiquewhite;
+  font-size: 30px;
+  border: none;
+  padding-left: 40px;
+  transform: 0.5s;
+}
+.button_itimsqq:hover {
+  background-color: rgb(255, 196, 120);
+}
+.button_itimsfoz {
+  margin-top: 0px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  border-radius: 10px;
+  width: 100px;
+  height: 50px;
+  background-color: antiquewhite;
+  font-size: 30px;
+  border: none;
+  padding-left: 40px;
+  transform: 0.5s;
+}
+.button_itimsfoz:hover {
+  background-color: rgb(255, 196, 120);
+}
+.button_itimsboliv {
+  margin-top: 0px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  border-radius: 10px;
+  width: 100px;
+  height: 50px;
+  background-color: antiquewhite;
+  font-size: 30px;
+  border: none;
+  padding-left: 40px;
+  transform: 0.5s;
+}
+.button_itimsboliv:hover {
+  background-color: rgb(255, 196, 120);
+}
+.button_itimskopayiv {
+  margin-top: 0px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  border-radius: 10px;
+  width: 100px;
+  height: 50px;
+  background-color: antiquewhite;
+  font-size: 30px;
+  border: none;
+  padding-left: 40px;
+  transform: 0.5s;
+}
+.button_itimskopayiv:hover {
+  background-color: rgb(255, 196, 120);
+}
+.button_itimsmenis {
+  margin-top: 0px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  border-radius: 10px;
+  width: 100px;
+  height: 50px;
+  background-color: antiquewhite;
+  font-size: 30px;
+  border: none;
+  padding-left: 40px;
+  transform: 0.5s;
+}
+.button_itimsmenis:hover {
+  background-color: rgb(255, 196, 120);
+}
+.button_itimstochka {
+  margin-top: 0px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  border-radius: 10px;
+  width: 100px;
+  height: 50px;
+  background-color: antiquewhite;
+  font-size: 30px;
+  border: none;
+  padding-left: 40px;
+  transform: 0.5s;
+}
+.button_itimstochka:hover {
+  background-color: rgb(255, 196, 120);
+}
+.button_itimsnol {
+  margin-top: 0px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  border-radius: 10px;
+  width: 100px;
+  height: 50px;
+  background-color: antiquewhite;
+  font-size: 30px;
+  border: none;
+  padding-left: 40px;
+  transform: 0.5s;
+}
+.button_itimsnol:hover {
+  background-color: rgb(255, 196, 120);
+}
+.button_itimsplus {
+  margin-top: 0px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  border-radius: 10px;
+  width: 100px;
+  height: 50px;
+  background-color: antiquewhite;
+  font-size: 30px;
+  border: none;
+  padding-left: 40px;
+  transform: 0.5s;
+}
+.button_itimsplus:hover {
+  background-color: rgb(255, 196, 120);
+}
